@@ -19,6 +19,10 @@ pnpm, React 19, nextjs app router, tailwind, vercel postgres, zod
 pnpm install
 pnpm run dev
 
+On mac received an error about bcrypt, had to:
+    pnpm approve-builds
+and select the bcrypt library
+
 ## Login
 login: user@nextmail.com / 123456
 
